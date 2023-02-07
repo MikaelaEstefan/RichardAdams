@@ -241,6 +241,8 @@ main p {
   margin-right: 10px;
   background: #898572ff;
   color: #F0ECD8ff;
+  background-image: linear-gradient(top, rgb(83, 81, 72), rgb(182, 177, 155));
+  box-shadow: 60px 12px -18px rgb(124, 122, 108);
 }
 
 .fa-twitter {
