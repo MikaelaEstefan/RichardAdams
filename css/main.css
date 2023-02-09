@@ -362,18 +362,8 @@ h1.titleContact {
    text-align: center;
   }
 
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  h1.title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
+  .contact-container, 
+  h1.title, 
   h1.title-about {
     display: flex;
     flex-direction: column;
