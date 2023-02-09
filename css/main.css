@@ -350,7 +350,6 @@ h1.titleContact {
     justify-content: center;
   }
 
-<<<<<<< HEAD
 .fa-facebook {
   margin-top: 20px;
   margin-right: 10px;
@@ -359,11 +358,9 @@ h1.titleContact {
   background-image: linear-gradient(top, rgb(83, 81, 72), rgb(182, 177, 155));
   box-shadow: 60px 12px -18px rgb(124, 122, 108);
 }
-=======
   header {
    text-align: center;
   }
->>>>>>> mi-rama
 
   .contact-container {
     display: flex;
