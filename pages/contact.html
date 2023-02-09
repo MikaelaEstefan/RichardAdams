@@ -17,33 +17,45 @@
     
     <!-- banner principal -->
     <header>
-        <a href="../index.html"> <h1>RICHARD ADAMS</h1></a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html"> Home </a>
-                </li>
-                <li>
-                    <a href="about.html"> About </a>
-                </li>
-                <li>
-                    <a href="books.html"> Books</a>
-                </li>
-                <li>
-                    <a href="newsletter.html"> Newsletter </a>
-                </li>
-                <li> 
-                    <a href="contact.html"> Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
+        <div class="title">
+          <a href="../index.html"> <h1 class="title-contact">RICHARD ADAMS</h1></a>
+        </div>
+          <nav>
+            <div class="container-1">
+                <ul>
+                    <li>
+                        <a href="../index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="../pages/about.html"> About</a>
+                    </li>
+                    <li>
+                        <a href="../pages/books.html"> Books</a>
+                    </li>
+                    <li>
+                        <a href="../pages/newsletter.html"> Newsletter </a>
+                    </li>
+                    <li> 
+                        <a href="../pages/contact.html"> Contact</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+      </header>
     <!-- contenido principal -->
     <main>
-      <h1 class="titleContact">To know more about Richard&#39;s work:</h1>
-      <a href="https://www.facebook.com/Watership-Down-Enterprises-1045168595532268" class="fa fa-facebook">Watership Down Enterprises</a>
-      <a href="https://twitter.com/watership_down_" class="fa fa-twitter">@watership_down</a>
+        <h1 class="titleContact">To know more about Richard&#39;s work:</h1>
+        <div class="contact-container">
+            <a href="https://www.facebook.com/Watership-Down-Enterprises-1045168595532268" class="contact-buttons">Watership Down Facebook</a>
+            <a href="https://twitter.com/watership_down_" class="contact-buttons">Watership Down Twitter</a>
+            <form class="form-container">   
+                <h1>Contact Us</h1>   
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT"/>
+            </form>
+    </div>
     </main>
 
     <!-- pie de pagina -->
