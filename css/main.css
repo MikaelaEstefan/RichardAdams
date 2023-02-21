@@ -342,6 +342,8 @@ h1.titleContact {
   margin-bottom: 10%;
 }
 
+/* MEDIA QUERIES */
+
 @media screen and (max-width:768px) { 
   .form-2, #input {
     display: flex;
