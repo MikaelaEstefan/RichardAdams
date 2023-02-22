@@ -29,13 +29,13 @@ body {
   text-align: center;
 }
 
-.title h1 {
-  font-size: 85px;
-}
-
 .title a {
   text-decoration: none;
   color:#434231ff
+}
+
+.title h1 {
+  font-size: 85px;
 }
 
 .container-1 a {
@@ -61,6 +61,32 @@ body {
   line-height: 150%;
   letter-spacing: 5px;
   font-weight: bold;
+}
+
+/* img de home */
+
+.container-2 {
+  display: flex;
+}
+
+.img-library {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.img-library > li {
+  flex-basis: 350px; 
+}
+
+.img-library li img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
 }
 
 .quote p {
@@ -99,33 +125,6 @@ footer a {
 footer h3 {
   font-size: 100%;
 }
-
-/* img de home */
-
-.container-2 {
-  display: flex;
-}
-
-.img-library {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  list-style: none;
-}
-
-.img-library > li {
-  flex-basis: 350px; 
-}
-
-.img-library li img {
-  object-fit: cover;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-
 
 /* estilos de about */
 
