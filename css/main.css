@@ -53,6 +53,7 @@ body {
 }
 
 .firstLine {
+  font-size: 35px;
   text-align: center;
   margin-top: 2%;
   color: #898572ff;
@@ -353,7 +354,7 @@ input {
   color:#898572ff;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .feedback-input {
@@ -396,16 +397,29 @@ input {
 
   .contact-container, 
   h1.title, 
-  h1.title-about, .quote {
+  h1.title-about, .quote, .column {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .title h1 {
+  .firstLine {
+    font-size: 25px;
+  }
+
+  .quote p {
+    font-size: 20px;
+    align-self: center;
+  }
+
+  .img-library {
     text-align: center;
-    font-size: 45px;
-   }
+  }
+
+  .img-library li img {
+    object-fit: contain;
+    max-width: 250px;
+  }
 
 }
    
