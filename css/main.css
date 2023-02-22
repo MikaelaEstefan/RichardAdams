@@ -376,6 +376,7 @@ input {
 /* MEDIA QUERIES */
 
 @media screen and (max-width:375px), (max-width:768px) { 
+
   .form-2, #input {
     display: flex;
     flex-direction: column;
@@ -422,5 +423,5 @@ input {
   }
 
 }
-   
+
 /* arreglar los media queries para poder dejar mobile y tablet por separado */
