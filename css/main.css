@@ -43,14 +43,14 @@ body {
   text-decoration: none;
   color:  #5E543Aff;
   font-weight:lighter; 
-  font-size: 120%;
+  font-size: 115%;
   letter-spacing: 5px;
   padding: 10px;
 } 
 
 .container-1 a:hover {
   color: #F0ECD8ff;
- }
+}
 
 .firstLine {
   text-align: center;
@@ -59,6 +59,7 @@ body {
   margin-bottom: 1.5%;
   line-height: 150%;
   letter-spacing: 5px;
+  font-weight: bold;
 }
 
 .quote p {
@@ -83,12 +84,19 @@ footer {
   justify-content: end;
   align-items: center;
   color: #434231ff;
-  font-size: small;
+}
+
+footer h2 {
+  font-size: 100%;
 }
 
 footer a {
   text-decoration: none;
   color: #434231ff ;
+}
+
+footer h3 {
+  font-size: 100%;
 }
 
 /* img de home */
@@ -190,8 +198,6 @@ div h5:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1%;
-  margin-bottom: 5%;
 }
 
 main p, 
@@ -227,7 +233,7 @@ button:hover {
 .container-type{
   display: inline-block;
   font-family: 'Quattrocento', serif;
-  font-size: 24px;
+  font-size: 40px;
   color: #898572ff;
   font-weight: bold;
 }
@@ -257,11 +263,11 @@ input {
 
 /* estilos de contact */
 
-h1.titleContact {
+/* h1.titleContact {
   color:#898572ff;
   text-align: center;
   margin-bottom: 15px;
-}
+} */
 
 .contact-container {
   display: flex;
