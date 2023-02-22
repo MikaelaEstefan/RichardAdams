@@ -22,12 +22,15 @@ body {
 }
 
 .title {
-  font-size: 350%;
   letter-spacing: 15px;
-  overflow: hidden;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
   color:#434231ff;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 85px;
 }
 
 .title a {
@@ -117,7 +120,7 @@ footer a {
 
 /* estilos de about */
 
-.title-about {
+/* .title-about {
   font-size: 350%;
   letter-spacing: 15px;
   overflow: hidden;
@@ -129,7 +132,7 @@ footer a {
 .title-about a {
   text-decoration: none;
   color:#434231ff
-}
+} */
 
 .container-3 {
   display: flex;
@@ -168,17 +171,17 @@ div h5:hover {
   background-color: #898572ff;
 }
 
-.title-books {
+/* .title-books {
   font-size: 350%;
   letter-spacing: 15px;
   overflow: hidden;
   font-family: 'Oswald', sans-serif;
-}
+} */
 
-.link-books {
+/* .link-books {
   text-decoration: none;
   color:#434231ff
-}
+} */
 
 /* estilos de newsletter */
 
@@ -322,11 +325,6 @@ h1.titleContact {
   font-weight:700;
 }
 [type="submit"]:hover { background:#5E543Aff; }
-
-.titleContact {
-  margin-top: 5%;
-  margin-bottom: 10%;
-}
 
 /* MEDIA QUERIES */
 
