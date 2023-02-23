@@ -1,0 +1,75 @@
+@mixin reset ($padding, $margin, $box-sizing) { 
+    padding: $padding;
+    margin: $margin;
+    box-sizing: $box-sizing;
+}
+
+@mixin firstLine ($font-size, $text-align){ 
+    font-size: $font-size;
+    text-align: $text-align;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    line-height: 150%;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+@mixin botones ($font-size, $border-radius) { 
+    font-size: $font-size;
+    border: 0;
+    padding: 10px;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: $border-radius;
+}
+
+@mixin parrafo-uno ($text-align) {
+    font-size: 120%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    line-height: 150%;
+    text-align: $text-align;
+}
+
+@mixin first-child ($position) {
+    position: $position;
+    top: 0;
+    left: 0;
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    transform: translateZ(25px);
+    background-color: #01060f;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 5px 5px 20px #666;
+}
+
+@mixin gradient { 
+    background: linear-gradient(90deg, 
+    #fff 0%,
+    #f9f9f9 5%,
+    #fff 10%,
+    #f9f9f9 15%,
+    #fff 20%,
+    #f9f9f9 25%,
+    #fff 30%,
+    #f9f9f9 35%,
+    #fff 40%,
+    #f9f9f9 45%,
+    #fff 50%,
+    #f9f9f9 55%,
+    #fff 60%,
+    #f9f9f9 65%,
+    #fff 70%,
+    #f9f9f9 75%,
+    #fff 80%,
+    #f9f9f9 85%,
+    #fff 90%,
+    #f9f9f9 95%,
+    #fff 100%
+    )
+}
