@@ -90,13 +90,13 @@ button {
     z-index: 1;
     overflow: hidden;
     border-radius: 5px;
-    button:hover {
-        color: #F0ECD8ff;
-        cursor: pointer;
-        background-color: #434231ff;
-        transition: all 0.5s;
-    }   
 }
+button:hover {
+    color: #F0ECD8ff;
+    cursor: pointer;
+    background-color: #434231ff;
+    transition: all 0.5s;
+}   
 
 @import "html/index";
 @import "html/about";

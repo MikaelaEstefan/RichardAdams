@@ -72,11 +72,12 @@ button {
   z-index: 1;
   overflow: hidden;
   border-radius: 5px; }
-  button button:hover {
-    color: #F0ECD8ff;
-    cursor: pointer;
-    background-color: #434231ff;
-    transition: all 0.5s; }
+
+button:hover {
+  color: #F0ECD8ff;
+  cursor: pointer;
+  background-color: #434231ff;
+  transition: all 0.5s; }
 
 /*estilos individuales de home*/
 .container-2 {
