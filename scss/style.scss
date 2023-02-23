@@ -2,7 +2,7 @@
 @import "../scss/utilidades/variables";
 @import "../scss/utilidades/listas";
 @import "../scss/utilidades/mixin";
-
+@import "../scss/utilidades/extend";
 
 /*reset y estilos aplicados a todos los html*/
 
@@ -60,14 +60,14 @@ footer {
     align-items: center;
     color: $font-color;
     h2 {
-        font-size: 100%;
+        @extend %font;
     }
     a {
         text-decoration: none;
         color: $font-color;
     }
     h3 {
-        font-size: 100%;
+        @extend %font;
     }
 }
 
@@ -98,7 +98,7 @@ button:hover {
     box-shadow: 60px 12px -18px rgb(124, 122, 108);
   }
     header {
-     text-align: center;
+        text-align: center;
     }
   
     .contact-container,
@@ -117,7 +117,7 @@ button:hover {
     }
   
     .img-library {
-      text-align: center;
+        text-align: center;
     }
   
     .img-library li img {

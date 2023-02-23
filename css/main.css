@@ -1,3 +1,6 @@
+footer h2, footer h3 {
+  font-size: 100%; }
+
 /*reset y estilos aplicados a todos los html*/
 * {
   padding: 0;
@@ -53,13 +56,9 @@ footer {
   justify-content: end;
   align-items: center;
   color: #434231ff; }
-  footer h2 {
-    font-size: 100%; }
   footer a {
     text-decoration: none;
     color: #434231ff; }
-  footer h3 {
-    font-size: 100%; }
 
 button {
   font-size: 1em;
@@ -112,6 +111,9 @@ button:hover {
     max-width: 250px; } }
 
 /*import*/
+footer h2, footer h3 {
+  font-size: 100%; }
+
 /*estilos individuales de home*/
 .container-2 {
   display: flex; }
@@ -146,6 +148,9 @@ span {
   font-style: italic; }
 
 /*imports*/
+footer h2, footer h3 {
+  font-size: 100%; }
+
 /*estilos individuales de about*/
 .container-3 {
   display: flex;
@@ -165,6 +170,9 @@ span {
   line-height: 150%;
   text-align: center;
   color: #434231ff; }
+
+footer h2, footer h3 {
+  font-size: 100%; }
 
 /*ESTILOS DE BOOKS*/
 .row {
@@ -231,6 +239,9 @@ span {
   border-radius: 0 2px 2px 0;
   box-shadow: -10px 0 50px 10px #666; }
 
+footer h2, footer h3 {
+  font-size: 100%; }
+
 /*estilos de contact*/
 .contact-container {
   display: flex;
@@ -273,9 +284,13 @@ span {
   .contact-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center; } }
 
 /* estilos de newsletter */
+footer h2, footer h3 {
+  font-size: 100%; }
+
 .main-newsletter {
   display: flex;
   flex-direction: column;
