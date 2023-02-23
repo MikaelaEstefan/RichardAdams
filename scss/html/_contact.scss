@@ -1,3 +1,7 @@
+
+@import "../utilidades/variables";
+@import "../utilidades/listas";
+
 /*estilos de contact*/
 
 .contact-container {
@@ -5,22 +9,22 @@
     flex-direction: row;
     align-items: center;
     .contact-buttons {
-        background-color: #898572ff;
-        color: #F0ECD8ff;
+        background-color: nth($colores, 3);
+        color: nth($colores, 1);
         padding: 15px 25px;
         text-decoration: none;
         margin: 8px;
         border-radius: 5px;
     }
     .contact-buttons:hover {
-        background-color:#5E543Aff;
+        background-color: nth($colores, 2);
     }
     .form-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         h1 {
-            color:#898572ff;
+            color: nth($colores, 3);
             text-align: center;
             font-weight: bold;
             font-size: 25px;
@@ -31,8 +35,8 @@
             font-size: 18px;
             border-radius: 5px;
             line-height: 22px;
-            background-color: #F0ECD8ff;
-            border:2px solid #5E543Aff;
+            background-color: nth($colores, 1);
+            border:2px solid nth($colores, 2);
             transition: all 0.3s;
             padding: 13px;
             margin-bottom: 15px;

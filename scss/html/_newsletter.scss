@@ -1,5 +1,8 @@
 /* estilos de newsletter */
 
+@import "../utilidades/variables";
+@import "../utilidades/listas";
+
 .main-newsletter {
     display: flex;
     flex-direction: column;
@@ -9,7 +12,7 @@
         display: inline-block;
         font-family: 'Quattrocento', serif;
         font-size: 40px;
-        color: #898572ff;
+        color: nth($colores, 3);
         font-weight: bold;
         .typed {
             overflow: hidden;
@@ -29,8 +32,8 @@
     .form {
     line-height: 180%;
         input {
-            background-color: #F0ECD8ff;
-            border: 1px solid #F0ECD8ff;
+            background-color: nth($colores, 1);
+            border: 1px solid nth($colores, 1);
             border-radius: 4px;
             height:22px; 
             width:250px;
@@ -45,8 +48,8 @@
   
 button {
     font-size: 1em;
-    background: #5E543Aff;
-    color: #CFC9AAff;
+    background: nth($colores, 2);
+    color: $background-color;
     border: 0;
     padding: 10px;
     margin: 1rem;
@@ -57,8 +60,8 @@ button {
 }
   
 button:hover {
-    color: #F0ECD8ff;
+    color: nth($colores, 1);
     cursor: pointer;
-    background-color: #434231ff;
+    background-color: $font-color;
     transition: all 0.5s;
 }

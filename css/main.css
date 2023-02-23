@@ -112,6 +112,7 @@ button:hover {
     object-fit: contain;
     max-width: 250px; } }
 
+/*import*/
 /*estilos individuales de home*/
 .container-2 {
   display: flex; }
@@ -145,6 +146,7 @@ button:hover {
 span {
   font-style: italic; }
 
+/*imports*/
 /*estilos individuales de about*/
 .container-3 {
   display: flex;
