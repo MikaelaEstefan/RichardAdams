@@ -82,8 +82,8 @@ button:hover {
   .form-2, #input {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
   .fa-facebook {
     margin-top: 20px;
     margin-right: 10px;
@@ -98,6 +98,7 @@ button:hover {
   h1.title-about, .quote, .column {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center; }
   .firstLine {
     font-size: 25px; }

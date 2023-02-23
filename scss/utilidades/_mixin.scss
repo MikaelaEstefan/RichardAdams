@@ -73,3 +73,11 @@
     #fff 100%
     )
 }
+
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
