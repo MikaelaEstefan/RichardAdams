@@ -1,0 +1,105 @@
+
+@import "../utilidades/variables";
+
+/*reset y estilos aplicados a todos los html*/
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+    font-family: 'Quattrocento', serif;
+    min-height: 100vh;
+}
+
+.title {
+    letter-spacing: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color:#434231ff;
+    text-align: center;
+    a { 
+        text-decoration: none;
+        color:#434231ff
+    }
+
+    h1 {
+        font-size: 85px;
+    }
+}
+
+.container-1 a {
+    font-family: 'Quattrocento', serif;
+    text-decoration: none;
+    color:  #5E543Aff;
+    font-weight:lighter; 
+    font-size: 115%;
+    letter-spacing: 5px;
+    padding: 10px;
+} 
+  
+.container-1 a:hover {
+    color: #F0ECD8ff;
+}
+  
+.firstLine {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 2%;
+    color: #898572ff;
+    margin-bottom: 1.5%;
+    line-height: 150%;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: #434231ff;
+    h2 {
+        font-size: 100%;
+    }
+    a {
+        text-decoration: none;
+        color: #434231ff ;
+    }
+    h3 {
+        font-size: 100%;
+    }
+}
+
+button {
+    font-size: 1em;
+    background: #5E543Aff;
+    color: #CFC9AAff;
+    border: 0;
+    padding: 10px;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 5px;
+    button:hover {
+        color: #F0ECD8ff;
+        cursor: pointer;
+        background-color: #434231ff;
+        transition: all 0.5s;
+    }   
+}
+
+@import "html/index";
+@import "html/about";
+@import "html/books";
+@import "html/contact";
+@import "html/newsletter";

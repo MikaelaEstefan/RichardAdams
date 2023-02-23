@@ -1,0 +1,41 @@
+/*estilos individuales de home*/
+
+.container-2 {
+    display: flex;
+}
+  
+.img-library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    > li {
+        flex-basis: 350px; 
+    }
+    img {
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+}
+  
+  
+.quote p {
+    font-size: 150%;
+    color: #898572ff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 150%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+  
+span {
+    font-style: italic;
+}
+  

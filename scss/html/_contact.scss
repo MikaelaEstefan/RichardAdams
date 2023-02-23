@@ -1,0 +1,46 @@
+/*estilos de contact*/
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .contact-buttons {
+        background-color: #898572ff;
+        color: #F0ECD8ff;
+        padding: 15px 25px;
+        text-decoration: none;
+        margin: 8px;
+        border-radius: 5px;
+        .contact-buttons:hover {
+            background-color:#5E543Aff;
+        }
+    }
+}
+  
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .form-container h1 {
+        color:#898572ff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .feedback-input {
+        font-family: 'Quattrocento', serif;
+        font-weight:lighter;
+        font-size: 18px;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: #F0ECD8ff;
+        border:2px solid #5E543Aff;
+        transition: all 0.3s;
+        padding: 13px;
+        margin-bottom: 15px;
+        width:100%;
+        box-sizing: border-box;
+        outline:0;
+    }
+}
+    
