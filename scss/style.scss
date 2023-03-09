@@ -100,9 +100,12 @@ button:hover {
     header {
         text-align: center;
     }
-  
+    
+    .title h1 {
+        font-size: 55px;
+    }
     .contact-container,
-    h1.title, .quote, .column {
+    .title h1, .quote, .column {
      @include flex;
     }
   

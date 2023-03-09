@@ -92,8 +92,10 @@ button:hover {
     box-shadow: 60px 12px -18px #7c7a6c; }
   header {
     text-align: center; }
+  .title h1 {
+    font-size: 55px; }
   .contact-container,
-  h1.title, .quote, .column {
+  .title h1, .quote, .column {
     display: flex;
     flex-direction: column;
     justify-content: center;
