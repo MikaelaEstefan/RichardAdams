@@ -102,8 +102,7 @@ button:hover {
     }
   
     .contact-container,
-    h1.title, 
-    h1.title-about, .quote, .column {
+    h1.title, .quote, .column {
      @include flex;
     }
   

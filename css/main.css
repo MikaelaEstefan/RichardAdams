@@ -93,8 +93,7 @@ button:hover {
   header {
     text-align: center; }
   .contact-container,
-  h1.title,
-  h1.title-about, .quote, .column {
+  h1.title, .quote, .column {
     display: flex;
     flex-direction: column;
     justify-content: center;
