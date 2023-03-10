@@ -7,7 +7,7 @@
 /*ESTILOS DE BOOKS*/
 
 .row  {
-    margin: 50px;
+    margin: 40px;
     .column {
         display: flex;
         flex-wrap: wrap;
@@ -16,6 +16,7 @@
             align-items: center;
             justify-content: center;
             perspective: 600px;
+            margin: 25px;
         }
     }
 }

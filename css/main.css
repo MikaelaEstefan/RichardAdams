@@ -177,7 +177,7 @@ footer h2, footer h3 {
 
 /*ESTILOS DE BOOKS*/
 .row {
-  margin: 50px; }
+  margin: 40px; }
   .row .column {
     display: flex;
     flex-wrap: wrap; }
@@ -185,7 +185,8 @@ footer h2, footer h3 {
       display: flex;
       align-items: center;
       justify-content: center;
-      perspective: 600px; }
+      perspective: 600px;
+      margin: 25px; }
 
 .book {
   width: 200px;
