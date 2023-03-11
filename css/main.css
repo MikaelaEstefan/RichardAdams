@@ -182,7 +182,8 @@ footer h2, footer h3 {
   margin: 40px; }
   .row .column {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
     .row .column .book-container {
       display: flex;
       align-items: center;
